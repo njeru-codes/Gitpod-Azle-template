@@ -3,13 +3,13 @@ This is a Gitpod Azle template for jumpstating your Decentralized App project on
 
 ## TECH STACK.
 This tools come already installed on this GItpod WorkSpace.
-* Azle
+* Azle <br/>
 Azle is a TypeScript framework for creating and managing smart contracts, or "canisters," on the Internet Computer Protocol (ICP).
-* NVM
+* NVM <br/>
 Nvm is a tool that enables management and switching between different Node.js versions
-* DFX
+* DFX <br/>
 DFX is the command-line interface for the Internet Computer.
-* TypeScript 
+* TypeScript <br/>
 TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
 
 ## Getting Started
