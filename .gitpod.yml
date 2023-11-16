@@ -5,10 +5,10 @@ tasks:
       sudo apt install -y npm
 
       # install Azle dependencies 
-      sudo apt install clang
-      sudo apt install build-essential
-      sudo apt install libssl-dev
-      sudo apt install pkg-config
+      sudo apt install -y clang
+      sudo apt install -y  build-essential
+      sudo apt install -y libssl-dev
+      sudo apt install -y pkg-config
 
       npm install azle
       npm install
