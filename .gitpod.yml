@@ -1,0 +1,31 @@
+tasks:   
+  - name: install dependencies
+    command:  |
+      sudo apt update
+      sudo apt install -y npm
+
+      # install Azle dependencies 
+      sudo apt install clang
+      sudo apt install build-essential
+      sudo apt install libssl-dev
+      sudo apt install pkg-config
+
+      npm install azle
+      npm install
+
+      # install nvm
+      curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+
+      nvm install 20
+      nvm use 20
+
+      # install DFX command line tool
+      DFX_VERSION=0.14.1 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
+
+
+      export PATH="$PATH:/home/gitpod/bin"
+
+      dfx start --background
+      
+      dfx --version
+      dfx deploy
