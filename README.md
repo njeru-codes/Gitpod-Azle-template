@@ -20,3 +20,5 @@ TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
 2. create or open an account on [gitpod](https://gitpod.io)
 
 3. create a new workspace on gitpod. Use the link to your cloned repository 
+
+ [![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/njeru-codes/Gitpod-Azle-template)
